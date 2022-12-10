@@ -1,0 +1,17 @@
+---
+title: "README"
+author: "Darya Shokouhi Niaki"
+date: "2022-12-10"
+output: html_document
+---
+#  Trimmed mean
+A trimmed mean (similar to an adjusted mean) is a method of averaging that removes a small designated percentage of the largest and smallest values before calculating the mean. After removing the specified outlier observations, the trimmed mean is found using a standard arithmetic averaging formula. The use of a trimmed mean helps eliminate the influence of outliers or data points on the tails that may unfairly affect the traditional or arithmetic mean.
+The input is a numeric vector and the second argument(s) is the number of smallest value that we want to ignore before calculating the mean. the third argument(l) is the number of largest values that we want to ignore before calculating the mean.
+
+# Calculating the third side of a right triangle
+
+In mathematics, the Pythagorean theorem or Pythagoras' theorem is a fundamental relation in Euclidean geometry between the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides. This theorem can be written as an equation relating the lengths of the sides a, b and the hypotenuse c, often called the Pythagorean equation:
+
+	
+$c^2 = a^2 + b^2 $
+in the below function, the first argument is an integer for the length of the hypotenuse and the second and third argument are integers for the legs of the right triangle
